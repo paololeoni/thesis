@@ -1,0 +1,34 @@
+{
+    "m0": 1e-2,
+    "rc": 100,
+    "h0": 0.1,
+    "rpivot": 100,
+    "plh": 0.14285714285714285714285714285714,
+    "mstar": 1,
+    "emission_layer_radmc": "emission_layer_radmc_incl60.npz",
+    "name_plot": "lowmass_incl60.png",
+    "temp_type": "dartois",
+    "transition": "4-3",
+    "transitions": ["4-3", "3-2"],
+    "plot_radmc": false,
+    "inclination": 30,
+    "params_dartois":{
+        "tatm_100": 36.59948664589044,  
+        "tmid_100": 27.52338155787805,
+        "q_atm": -0.6256645151299509,
+        "q_mid": -0.3519012412652413,
+        "z0": 10.01050153757557,
+        "beta_z": 0.00035307461205567664
+    },
+
+
+    "params_law":{
+        "tatm_100": 33,  
+        "tmid_100": 16,
+        "q_atm": -0.95,
+        "q_mid": -0.01,
+        "z0": 13,
+        "beta_z": 0.14,
+        "alpha": 2.13
+    }
+}
